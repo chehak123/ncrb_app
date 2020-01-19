@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ncr"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="31dp" />
 
     <TextView
         android:id="@+id/textView14"

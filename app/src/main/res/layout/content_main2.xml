@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/activity_main2">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="298dp"
-        android:layout_height="48dp"
-        android:text="Lodge a Complaint "
-        android:fontFamily="Ariel"
+        android:id="@+id/textView3"
+        android:layout_width="349dp"
+        android:layout_height="33dp"
         android:gravity="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="OBTAIN COPY OF FIR"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="Police Station Name"
+        android:text="FIR No."
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
@@ -34,9 +34,9 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="171dp"
-        android:layout_height="31dp"
+        android:layout_height="45dp"
         android:gravity="center"
-        android:text="Subject"
+        android:text="Date of Registration of FIR"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
@@ -47,55 +47,55 @@
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="Complaint type"
+        android:text="Police Station"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
-        tools:layout_editor_absoluteY="150dp" />
+        tools:layout_editor_absoluteY="207dp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="Name"
+        android:text="Name of Complaint"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
-        tools:layout_editor_absoluteY="190dp" />
+        tools:layout_editor_absoluteY="166dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="Address"
+        android:text="Name of accused person"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteY="246dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="City"
+        android:text="Applicant's Detail"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView9"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteY="285dp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="Postal Code"
+        android:text="Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView11"
-        tools:layout_editor_absoluteY="331dp" />
+        tools:layout_editor_absoluteY="323dp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -106,64 +106,48 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView12"
-        tools:layout_editor_absoluteY="408dp" />
+        tools:layout_editor_absoluteY="401dp" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="171dp"
         android:layout_height="31dp"
         android:gravity="center"
-        android:text="Email"
+        android:text="Address"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView10"
-        tools:layout_editor_absoluteY="370dp" />
+        tools:layout_editor_absoluteY="362dp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="171dp"
-        android:layout_height="31dp"
+        android:layout_height="45dp"
         android:gravity="center"
-        android:text="Authorised code"
+        android:text="Relation with accused person"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView13"
-        tools:layout_editor_absoluteY="448dp" />
+        tools:layout_editor_absoluteY="439dp" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="171dp"
-        android:layout_height="31dp"
+        android:layout_height="45dp"
         android:gravity="center"
-        android:text="Your Complaint"
+        android:text="Purpose for applying for the copy of FIR"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:layout_editor_absoluteY="495dp" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="204dp"
         android:layout_height="31dp"
         android:text="--Select Police Station--"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="72dp" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="204dp"
-        android:layout_height="31dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="111dp" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="204dp"
-        android:layout_height="31dp"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="150dp" />
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        tools:layout_editor_absoluteY="207dp" />
 
     <EditText
         android:id="@+id/editText2"
@@ -171,17 +155,17 @@
         android:layout_height="31dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="190dp" />
+        app:layout_constraintStart_toStartOf="@+id/editText10"
+        tools:layout_editor_absoluteY="166dp" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="204dp"
-        android:layout_height="56dp"
+        android:layout_height="31dp"
         android:ems="10"
         android:inputType="textPostalAddress"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintStart_toStartOf="@+id/editText5"
+        tools:layout_editor_absoluteY="362dp" />
 
     <EditText
         android:id="@+id/editText4"
@@ -189,8 +173,8 @@
         android:layout_height="31dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintStart_toStartOf="@+id/editText12"
+        tools:layout_editor_absoluteY="285dp" />
 
     <EditText
         android:id="@+id/editText5"
@@ -198,52 +182,72 @@
         android:layout_height="31dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="331dp" />
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        tools:layout_editor_absoluteY="323dp" />
 
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="204dp"
-        android:layout_height="31dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="370dp" />
-
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="204dp"
-        android:layout_height="31dp"
-        android:ems="10"
-        android:inputType="phone"
-        tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="408dp" />
 
     <EditText
         android:id="@+id/editText8"
         android:layout_width="204dp"
-        android:layout_height="31dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintStart_toStartOf="@+id/editText7"
-        tools:layout_editor_absoluteY="448dp" />
-
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="439dp" />
 
     <EditText
         android:id="@+id/editText9"
         android:layout_width="204dp"
-        android:layout_height="70dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="@+id/editText8"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:layout_editor_absoluteY="495dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="113dp"
-        android:layout_height="48dp"
+        android:layout_height="45dp"
         android:text="SUBMIT"
         app:layout_constraintStart_toStartOf="@+id/editText9"
         tools:layout_editor_absoluteY="586dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="@+id/editText11"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="204dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="204dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        app:layout_constraintStart_toStartOf="@+id/spinner"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="204dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="401dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
